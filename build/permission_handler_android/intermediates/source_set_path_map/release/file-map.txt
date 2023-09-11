@@ -1,0 +1,12 @@
+com.baseflow.permissionhandler.permission_handler_android-jetified-window-java-1.0.0-beta04-0 /Users/soundwave2847/.gradle/caches/transforms-3/29517b5ba912f9689907c39dbb352d3a/transformed/jetified-window-java-1.0.0-beta04/res
+com.baseflow.permissionhandler.permission_handler_android-jetified-window-1.0.0-beta04-1 /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/res
+com.baseflow.permissionhandler.permission_handler_android-core-1.6.0-2 /Users/soundwave2847/.gradle/caches/transforms-3/6d3237bc319e7b967918f32c402a8d45/transformed/core-1.6.0/res
+com.baseflow.permissionhandler.permission_handler_android-jetified-annotation-experimental-1.1.0-3 /Users/soundwave2847/.gradle/caches/transforms-3/f0ced427c4d770421a04aafb9ab9aa25/transformed/jetified-annotation-experimental-1.1.0/res
+com.baseflow.permissionhandler.permission_handler_android-main-4 /Users/soundwave2847/.pub-cache/hosted/pub.dev/permission_handler_android-10.3.2/android/src/main/res
+com.baseflow.permissionhandler.permission_handler_android-release-5 /Users/soundwave2847/.pub-cache/hosted/pub.dev/permission_handler_android-10.3.2/android/src/release/res
+com.baseflow.permissionhandler.permission_handler_android-pngs-6 /Users/soundwave2847/StudioProjects/bar_monkey/build/permission_handler_android/generated/res/pngs/release
+com.baseflow.permissionhandler.permission_handler_android-resValues-7 /Users/soundwave2847/StudioProjects/bar_monkey/build/permission_handler_android/generated/res/resValues/release
+com.baseflow.permissionhandler.permission_handler_android-rs-8 /Users/soundwave2847/StudioProjects/bar_monkey/build/permission_handler_android/generated/res/rs/release
+com.baseflow.permissionhandler.permission_handler_android-mergeReleaseResources-9 /Users/soundwave2847/StudioProjects/bar_monkey/build/permission_handler_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.baseflow.permissionhandler.permission_handler_android-mergeReleaseResources-10 /Users/soundwave2847/StudioProjects/bar_monkey/build/permission_handler_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.baseflow.permissionhandler.permission_handler_android-merged_res-11 /Users/soundwave2847/StudioProjects/bar_monkey/build/permission_handler_android/intermediates/merged_res/release

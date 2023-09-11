@@ -1,0 +1,12 @@
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-java-1.0.0-beta04-0 /Users/soundwave2847/.gradle/caches/transforms-3/29517b5ba912f9689907c39dbb352d3a/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-1.0.0-beta04-1 /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-core-1.6.0-2 /Users/soundwave2847/.gradle/caches/transforms-3/6d3237bc319e7b967918f32c402a8d45/transformed/core-1.6.0/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-annotation-experimental-1.1.0-3 /Users/soundwave2847/.gradle/caches/transforms-3/f0ced427c4d770421a04aafb9ab9aa25/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-main-4 /Users/soundwave2847/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.15/android/src/main/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-release-5 /Users/soundwave2847/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.15/android/src/release/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-6 /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_plugin_android_lifecycle/generated/res/pngs/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-7 /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_plugin_android_lifecycle/generated/res/resValues/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-rs-8 /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_plugin_android_lifecycle/generated/res/rs/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-9 /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-10 /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-11 /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_plugin_android_lifecycle/intermediates/merged_res/release

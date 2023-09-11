@@ -1,0 +1,12 @@
+com.vanethos.notification_permissions-jetified-window-java-1.0.0-beta04-0 /Users/soundwave2847/.gradle/caches/transforms-3/29517b5ba912f9689907c39dbb352d3a/transformed/jetified-window-java-1.0.0-beta04/res
+com.vanethos.notification_permissions-jetified-window-1.0.0-beta04-1 /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/res
+com.vanethos.notification_permissions-core-1.6.0-2 /Users/soundwave2847/.gradle/caches/transforms-3/6d3237bc319e7b967918f32c402a8d45/transformed/core-1.6.0/res
+com.vanethos.notification_permissions-jetified-annotation-experimental-1.1.0-3 /Users/soundwave2847/.gradle/caches/transforms-3/f0ced427c4d770421a04aafb9ab9aa25/transformed/jetified-annotation-experimental-1.1.0/res
+com.vanethos.notification_permissions-main-4 /Users/soundwave2847/.pub-cache/hosted/pub.dev/notification_permissions-0.6.1/android/src/main/res
+com.vanethos.notification_permissions-release-5 /Users/soundwave2847/.pub-cache/hosted/pub.dev/notification_permissions-0.6.1/android/src/release/res
+com.vanethos.notification_permissions-pngs-6 /Users/soundwave2847/StudioProjects/bar_monkey/build/notification_permissions/generated/res/pngs/release
+com.vanethos.notification_permissions-resValues-7 /Users/soundwave2847/StudioProjects/bar_monkey/build/notification_permissions/generated/res/resValues/release
+com.vanethos.notification_permissions-rs-8 /Users/soundwave2847/StudioProjects/bar_monkey/build/notification_permissions/generated/res/rs/release
+com.vanethos.notification_permissions-mergeReleaseResources-9 /Users/soundwave2847/StudioProjects/bar_monkey/build/notification_permissions/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.vanethos.notification_permissions-mergeReleaseResources-10 /Users/soundwave2847/StudioProjects/bar_monkey/build/notification_permissions/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.vanethos.notification_permissions-merged_res-11 /Users/soundwave2847/StudioProjects/bar_monkey/build/notification_permissions/intermediates/merged_res/release
