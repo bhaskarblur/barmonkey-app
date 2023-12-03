@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>531785718320-0dd14i8ur4078722aplqmsdfc3ucmrmr.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDf1NyYMnsNni0gUoSJjIzzNTZ41eYK1gA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>531785718320</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.barmonkey.barmonkey</string>
+	<key>PROJECT_ID</key>
+	<string>barmonkey-5b629</string>
+	<key>STORAGE_BUCKET</key>
+	<string>barmonkey-5b629.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:531785718320:ios:e2b9b525e17ff6a3bd6bf5</string>
+	<key>DATABASE_URL</key>
+	<string>https://barmonkey-5b629-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

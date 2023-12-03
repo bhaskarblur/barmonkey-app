@@ -270,11 +270,12 @@ class _SocialScreenState extends State<SocialScreen>
                                   child: Column(children: [
                                     gap(40),
                                     Text(
+                                        provider.profile['data']['firstName'] != null ?
                                         toBeginningOfSentenceCase(provider
                                                 .profile['data']['firstName'] +
                                             ' ' +
                                             provider.profile['data']
-                                                ['lastName'])!,
+                                                ['lastName'])! : "",
                                         style: TextStyle(
                                             fontSize: 20,
                                             color: primaryTextColor,

@@ -794,17 +794,20 @@ class _HomePageState extends State<HomePage> {
         // profileProvider.chnagePosts(value['data']['posts']);
         profileProvider.clearPosts();
 
-        for (int i = 0; i < value['data']['posts'].length; i++) {
-          if (value['data']['posts'][i]['isZipped'] == true) {
-            profileProvider.addToPosts(value['data']['posts'][i]);
+        if(value['data']['posts'] != null) {
+          for (int i = 0; i < value['data']['posts'].length; i++) {
+            if (value['data']['posts'][i]['isZipped'] == true) {
+              profileProvider.addToPosts(value['data']['posts'][i]);
+            }
+          }
+          for (int i = 0; i < value['data']['posts'].length; i++) {
+            if (value['data']['posts'][i]['isZipped'] == false) {
+              profileProvider.addToPosts(value['data']['posts'][i]);
+            }
           }
         }
-        for (int i = 0; i < value['data']['posts'].length; i++) {
-          if (value['data']['posts'][i]['isZipped'] == false) {
-            profileProvider.addToPosts(value['data']['posts'][i]);
-          }
-        }
-        profileProvider.notify();
+          profileProvider.notify();
+
       });
     });
   }

@@ -4,7 +4,7 @@
             "outputFile": "barmonkey.io.app-mergeDebugResources-38:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/soundwave2847/.gradle/caches/transforms-3/fdc52a2a3d4489afeed48d16198fe20c/transformed/appcompat-1.4.2/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/soundwave2847/.gradle/caches/transforms-3/c494f0a60bfb85e93ee6dad59f80590a/transformed/appcompat-1.4.2/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

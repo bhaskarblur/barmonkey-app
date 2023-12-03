@@ -72,7 +72,7 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
                                     endpoint: 'user',
                                     body: {"isPublic": public}).then((value) {
                                   dialog(context,
-                                      value['message'] ?? value['error'], () {
+                                      "Status saved", () {
                                     Nav.pop(context);
                                   });
                                 });

@@ -4,8 +4,17 @@ class FriendProvider with ChangeNotifier {
   dynamic _allFriends;
   dynamic get allFriends => _allFriends;
 
+  dynamic _friendsStories;
+  dynamic get friendsStories => _friendsStories;
+
+
   changeAllFriends(dynamic value) {
     _allFriends = value;
+    notifyListeners();
+  }
+
+  changefriendsStories(dynamic value) {
+    _friendsStories = value;
     notifyListeners();
   }
 
@@ -87,6 +96,11 @@ class FriendProvider with ChangeNotifier {
 
   clearFriendRequests() {
     _friendRequests = null;
+    notifyListeners();
+  }
+
+  clearFriendStories() {
+    _friendsStories = null;
     notifyListeners();
   }
 

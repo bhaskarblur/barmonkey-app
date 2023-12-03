@@ -32,6 +32,10 @@
         "source": "barmonkey.io.app-main-33:/drawable/launch_background.xml"
     },
     {
+        "merged": "barmonkey.io.app-merged_res-40:/drawable_barmonkeylogo.png.flat",
+        "source": "barmonkey.io.app-main-33:/drawable/barmonkeylogo.png"
+    },
+    {
         "merged": "barmonkey.io.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "barmonkey.io.app-main-33:/mipmap-xhdpi/ic_launcher.png"
     },

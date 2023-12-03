@@ -251,7 +251,7 @@ class _ClubDetailsScreenState extends State<ClubDetailsScreen>
                                                                     .favorite_outline,
                                                             size: 16,
                                                             color: Colors.red),
-                                                        horGap(3),
+                                                        horGap(8),
                                                         Text(
                                                             liked
                                                                 ? 'Liked Bar'
@@ -292,7 +292,7 @@ class _ClubDetailsScreenState extends State<ClubDetailsScreen>
                                                               .location_on_outlined,
                                                           size: 16,
                                                           color: Colors.blue),
-                                                      horGap(3),
+                                                      horGap(8),
                                                       Text('Get Direction',
                                                           style: TextStyle(
                                                               color:
@@ -301,6 +301,37 @@ class _ClubDetailsScreenState extends State<ClubDetailsScreen>
                                               ),
                                             ),
                                           ),
+                                          horGap(10),
+                                          InkWell(
+                                            onTap: () async {
+                                              // make an api call to add story
+                                            },
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                  borderRadius:
+                                                  BorderRadius.circular(5),
+                                                  color: Colors.black),
+                                              child: Padding(
+                                                padding:
+                                                const EdgeInsets.all(5),
+                                                child: Row(
+                                                    mainAxisSize:
+                                                    MainAxisSize.min,
+                                                    children: [
+                                                      const Icon(
+                                                          Icons
+                                                              .add_circle_outline,
+                                                          size: 16,
+                                                          color: Colors.green),
+                                                      horGap(8),
+                                                      Text('Post Bar',
+                                                          style: TextStyle(
+                                                              color:
+                                                              primaryTextColor))
+                                                    ]),
+                                              ),
+                                            ),
+                                          )
                                         ],
                                       ),
                                       gap(10),

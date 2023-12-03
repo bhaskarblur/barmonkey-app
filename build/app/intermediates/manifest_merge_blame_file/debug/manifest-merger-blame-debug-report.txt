@@ -13,685 +13,642 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:2:5-66
-15-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:2:22-64
+15-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:2:5-66
+15-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:2:22-64
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:3:5-79
-16-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:3:22-76
+16-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:3:5-79
+16-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:3:22-76
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:4:5-81
-17-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:4:22-78
+17-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:4:5-81
+17-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:4:22-78
 18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-18-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:5:5-77
-18-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:5:22-74
+18-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:5:5-77
+18-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:5:22-74
 19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-19-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:6:5-84
-19-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:6:22-82
+19-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:6:5-84
+19-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:6:22-82
 20    <uses-permission android:name="android.permission.READ_CONTACTS" />
-20-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:7:5-72
-20-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:7:22-69
+20-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:7:5-72
+20-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:7:22-69
 21    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-21-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:8:5-73
-21-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:8:22-70
+21-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:8:5-73
+21-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:8:22-70
 22
 23    <queries>
-23-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:9:5-15:13
+23-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:9:5-15:13
 24        <package android:name="com.google.android.apps.maps" />
-24-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:10:7-62
-24-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:10:16-59
+24-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:10:7-62
+24-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:10:16-59
 25
 26        <intent>
-26-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:11:7-14:16
+26-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:11:7-14:16
 27            <action android:name="android.intent.action.VIEW" />
-27-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:12:11-63
-27-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:12:19-60
+27-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:12:11-63
+27-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:12:19-60
 28
 29            <data android:mimeType="text/plain" />
-29-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:13:11-49
-29-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:13:17-46
+29-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:13:11-49
+29-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:13:17-46
 30        </intent>
 31        <intent>
-31-->[:contacts_service] /Users/soundwave2847/StudioProjects/bar_monkey/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+31-->[:contacts_service] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
 32            <action android:name="android.accounts.AccountAuthenticator" />
-32-->[:contacts_service] /Users/soundwave2847/StudioProjects/bar_monkey/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-76
-32-->[:contacts_service] /Users/soundwave2847/StudioProjects/bar_monkey/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-73
+32-->[:contacts_service] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-76
+32-->[:contacts_service] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-73
 33        </intent> <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
 34        <intent>
-34-->[:contacts_service] /Users/soundwave2847/StudioProjects/bar_monkey/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-21:18
+34-->[:contacts_service] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-21:18
 35            <action android:name="android.intent.action.VIEW" />
-35-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:12:11-63
-35-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:12:19-60
+35-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:12:11-63
+35-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:12:19-60
 36
 37            <data
-37-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:13:11-49
+37-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:13:11-49
 38                android:host="com.android.contacts"
 39                android:mimeType="vnd.android.cursor.item/*"
-39-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:13:17-46
+39-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:13:17-46
 40                android:scheme="content" />
 41        </intent>
 42    </queries>
 43
 44    <uses-permission android:name="android.permission.WAKE_LOCK" />
-44-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-44-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+44-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+44-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
 45    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
-45-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-45-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+45-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+45-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
 46    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-46-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
-46-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
-47    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-47-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
-47-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
-48    <uses-permission android:name="android.permission.VIBRATE" />
-48-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
-48-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
-49    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-49-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
-49-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
-50    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-50-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
-50-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
-51
-52    <uses-feature
-52-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/78c46ea1c7bfb284a91d9febbba59a1a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
-53        android:glEsVersion="0x00020000"
-53-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/78c46ea1c7bfb284a91d9febbba59a1a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
-54        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-54-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/78c46ea1c7bfb284a91d9febbba59a1a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
-55    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-55-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:28:5-82
-55-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:28:22-79
-56    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-56-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9e731b399e2ba3f697ad3e602a121507/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
-56-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9e731b399e2ba3f697ad3e602a121507/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
-57    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-57-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
-57-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
-58
-59    <permission
-59-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/dc5b1733b493234eecba2c1dfa5bfc01/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
-60        android:name="barmonkey.io.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-60-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/dc5b1733b493234eecba2c1dfa5bfc01/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
-61        android:protectionLevel="signature" />
-61-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/dc5b1733b493234eecba2c1dfa5bfc01/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
-62
-63    <uses-permission android:name="barmonkey.io.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-63-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/dc5b1733b493234eecba2c1dfa5bfc01/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
-63-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/dc5b1733b493234eecba2c1dfa5bfc01/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
-64    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-64-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
-64-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+46-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+46-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+47    <uses-permission android:name="android.permission.VIBRATE" />
+47-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
+47-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
+48
+49    <uses-feature
+49-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/252800547586ce91da8d12bbd4b11aca/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+50        android:glEsVersion="0x00020000"
+50-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/252800547586ce91da8d12bbd4b11aca/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+51        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+51-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/252800547586ce91da8d12bbd4b11aca/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+52    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+52-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:5-82
+52-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:22-79
+53    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+53-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/d3fe9e306e896c24b744fd531be9ea2a/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+53-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/d3fe9e306e896c24b744fd531be9ea2a/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+54    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+54-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+54-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+55
+56    <permission
+56-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/7e81101ce7811459373b075a1add12b2/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+57        android:name="barmonkey.io.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+57-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/7e81101ce7811459373b075a1add12b2/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+58        android:protectionLevel="signature" />
+58-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/7e81101ce7811459373b075a1add12b2/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+59
+60    <uses-permission android:name="barmonkey.io.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+60-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/7e81101ce7811459373b075a1add12b2/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+60-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/7e81101ce7811459373b075a1add12b2/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+61    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+62    <uses-feature
+62-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+63        android:name="android.hardware.camera"
+63-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+64        android:required="false" />
+64-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
 65    <uses-feature
-65-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
-66        android:name="android.hardware.camera"
-66-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
-67        android:required="false" />
-67-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
-68    <uses-feature
-68-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
-69        android:name="android.hardware.camera.front"
-69-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
-70        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-70-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
-71    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+65-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+66        android:name="android.hardware.camera.front"
+66-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+67        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+67-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+68    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+69    <uses-feature
+69-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+70        android:name="android.hardware.camera.autofocus"
+70-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+71        android:required="false" />
+71-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
 72    <uses-feature
-72-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
-73        android:name="android.hardware.camera.autofocus"
-73-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+72-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+73        android:name="android.hardware.camera.flash"
+73-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
 74        android:required="false" />
-74-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+74-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
 75    <uses-feature
-75-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
-76        android:name="android.hardware.camera.flash"
-76-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+75-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+76        android:name="android.hardware.screen.landscape"
+76-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
 77        android:required="false" />
-77-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+77-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
 78    <uses-feature
-78-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
-79        android:name="android.hardware.screen.landscape"
-79-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+78-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+79        android:name="android.hardware.wifi"
+79-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
 80        android:required="false" />
-80-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
-81    <uses-feature
-81-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
-82        android:name="android.hardware.wifi"
-82-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
-83        android:required="false" />
-83-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
-84
-85    <application
-86        android:name="android.app.Application"
-87        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-87-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/dc5b1733b493234eecba2c1dfa5bfc01/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
-88        android:debuggable="true"
-89        android:icon="@mipmap/launcher_icon"
-90        android:label="BarMonkey" >
-91        <activity
-92            android:name="com.yalantis.ucrop.UCropActivity"
-93            android:screenOrientation="portrait"
-94            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-95        <activity
-96            android:name="barmonkey.io.MainActivity"
-97            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-98            android:exported="true"
-99            android:hardwareAccelerated="true"
-100            android:launchMode="singleTop"
-101            android:theme="@style/LaunchTheme"
-102            android:windowSoftInputMode="adjustResize" >
-103
-104            <!--
-105                 Specifies an Android theme to apply to this Activity as soon as
-106                 the Android process has started. This theme is visible to the user
-107                 while the Flutter UI initializes. After that, this theme continues
-108                 to determine the Window background behind the Flutter UI.
-109            -->
-110            <meta-data
-111                android:name="io.flutter.embedding.android.NormalTheme"
-112                android:resource="@style/NormalTheme" />
+80-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+81
+82    <application
+83        android:name="android.app.Application"
+84        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+84-->[androidx.core:core:1.10.1] /Users/soundwave2847/.gradle/caches/transforms-3/7e81101ce7811459373b075a1add12b2/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+85        android:debuggable="true"
+86        android:icon="@mipmap/launcher_icon"
+87        android:label="BarMonkey" >
+88        <activity
+89            android:name="com.yalantis.ucrop.UCropActivity"
+90            android:screenOrientation="portrait"
+91            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+92        <activity
+93            android:name="barmonkey.io.MainActivity"
+94            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+95            android:exported="true"
+96            android:hardwareAccelerated="true"
+97            android:launchMode="singleTop"
+98            android:theme="@style/LaunchTheme"
+99            android:windowSoftInputMode="adjustResize" >
+100
+101            <!--
+102                 Specifies an Android theme to apply to this Activity as soon as
+103                 the Android process has started. This theme is visible to the user
+104                 while the Flutter UI initializes. After that, this theme continues
+105                 to determine the Window background behind the Flutter UI.
+106            -->
+107            <meta-data
+108                android:name="io.flutter.embedding.android.NormalTheme"
+109                android:resource="@style/NormalTheme" />
+110
+111            <intent-filter>
+112                <action android:name="android.intent.action.MAIN" />
 113
-114            <intent-filter>
-115                <action android:name="android.intent.action.MAIN" />
-116
-117                <category android:name="android.intent.category.LAUNCHER" />
-118            </intent-filter>
-119        </activity>
-120        <!--
-121             Don't delete the meta-data below.
-122             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-123        -->
+114                <category android:name="android.intent.category.LAUNCHER" />
+115            </intent-filter>
+116        </activity>
+117        <!--
+118             Don't delete the meta-data below.
+119             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+120        -->
+121        <meta-data
+122            android:name="com.google.firebase.messaging.default_notification_channel_id"
+123            android:value="high_importance_channel" />
 124        <meta-data
-125            android:name="com.google.firebase.messaging.default_notification_channel_id"
-126            android:value="high_importance_channel" />
+125            android:name="flutterEmbedding"
+126            android:value="2" />
 127        <meta-data
-128            android:name="flutterEmbedding"
-129            android:value="2" />
-130        <meta-data
-131            android:name="com.google.android.geo.API_KEY"
-132            android:value="AIzaSyBxKKPv9x_3Dlq9oufZKbnOQ6NAWMS6utw" />
-133
-134        <service
-134-->[:firebase_auth] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-135            android:name="com.google.firebase.components.ComponentDiscoveryService"
-135-->[:firebase_auth] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
-136            android:directBootAware="true"
-136-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/cdee480617d8040e445d3cb851e491ba/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
-137            android:exported="false" >
-137-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
+128            android:name="com.google.android.geo.API_KEY"
+129            android:value="AIzaSyBxKKPv9x_3Dlq9oufZKbnOQ6NAWMS6utw" />
+130
+131        <service
+131-->[:firebase_auth] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+132            android:name="com.google.firebase.components.ComponentDiscoveryService"
+132-->[:firebase_auth] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/08ca0e1439c3ca038d01c6924a6f7426/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:68:13-37
+135            <meta-data
+135-->[:firebase_auth] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+136                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+136-->[:firebase_auth] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[:firebase_auth] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 138            <meta-data
-138-->[:firebase_auth] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-139                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-139-->[:firebase_auth] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+138-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+139                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+139-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
 140                android:value="com.google.firebase.components.ComponentRegistrar" />
-140-->[:firebase_auth] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+140-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
 141            <meta-data
-141-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
-142                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-142-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+141-->[:firebase_core] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+142                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+142-->[:firebase_core] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 143                android:value="com.google.firebase.components.ComponentRegistrar" />
-143-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+143-->[:firebase_core] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 144            <meta-data
-144-->[:firebase_core] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-145                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-145-->[:firebase_core] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+144-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:69:13-71:85
+145                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+145-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:70:17-109
 146                android:value="com.google.firebase.components.ComponentRegistrar" />
-146-->[:firebase_core] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+146-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:71:17-82
 147            <meta-data
-147-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
-148                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-148-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+147-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:53:13-55:85
+148                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+148-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:54:17-119
 149                android:value="com.google.firebase.components.ComponentRegistrar" />
-149-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+149-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:55:17-82
 150            <meta-data
-150-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
-151                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-151-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+150-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/d3fe9e306e896c24b744fd531be9ea2a/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+151                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+151-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/d3fe9e306e896c24b744fd531be9ea2a/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
 152                android:value="com.google.firebase.components.ComponentRegistrar" />
-152-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+152-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/d3fe9e306e896c24b744fd531be9ea2a/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
 153            <meta-data
-153-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9e731b399e2ba3f697ad3e602a121507/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
-154                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-154-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9e731b399e2ba3f697ad3e602a121507/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+153-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/soundwave2847/.gradle/caches/transforms-3/193a989da8cd9b8bbc2dcbcd44cf9c6d/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+154                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+154-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/soundwave2847/.gradle/caches/transforms-3/193a989da8cd9b8bbc2dcbcd44cf9c6d/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
 155                android:value="com.google.firebase.components.ComponentRegistrar" />
-155-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9e731b399e2ba3f697ad3e602a121507/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+155-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/soundwave2847/.gradle/caches/transforms-3/193a989da8cd9b8bbc2dcbcd44cf9c6d/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
 156            <meta-data
-156-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/soundwave2847/.gradle/caches/transforms-3/3c79e5c9c586da43f9b10276651ab3f9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
-157                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-157-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/soundwave2847/.gradle/caches/transforms-3/3c79e5c9c586da43f9b10276651ab3f9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+156-->[com.google.firebase:firebase-iid:21.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/26a90a219363cfa31569557fe489320d/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+157                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+157-->[com.google.firebase:firebase-iid:21.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/26a90a219363cfa31569557fe489320d/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
 158                android:value="com.google.firebase.components.ComponentRegistrar" />
-158-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/soundwave2847/.gradle/caches/transforms-3/3c79e5c9c586da43f9b10276651ab3f9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+158-->[com.google.firebase:firebase-iid:21.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/26a90a219363cfa31569557fe489320d/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
 159            <meta-data
-159-->[com.google.firebase:firebase-iid:21.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/ec908ab67f3394c75f41646a892892c9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
-160                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-160-->[com.google.firebase:firebase-iid:21.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/ec908ab67f3394c75f41646a892892c9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+159-->[com.google.firebase:firebase-installations:17.1.4] /Users/soundwave2847/.gradle/caches/transforms-3/e9deef10f1b13521428329fcfd8d6115/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:15:13-17:85
+160                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+160-->[com.google.firebase:firebase-installations:17.1.4] /Users/soundwave2847/.gradle/caches/transforms-3/e9deef10f1b13521428329fcfd8d6115/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:16:17-127
 161                android:value="com.google.firebase.components.ComponentRegistrar" />
-161-->[com.google.firebase:firebase-iid:21.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/ec908ab67f3394c75f41646a892892c9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
-162            <meta-data
-162-->[com.google.firebase:firebase-installations:17.1.3] /Users/soundwave2847/.gradle/caches/transforms-3/d16a0e68caf97823ab61b2dc75c250c5/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
-163                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-163-->[com.google.firebase:firebase-installations:17.1.3] /Users/soundwave2847/.gradle/caches/transforms-3/d16a0e68caf97823ab61b2dc75c250c5/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
-164                android:value="com.google.firebase.components.ComponentRegistrar" />
-164-->[com.google.firebase:firebase-installations:17.1.3] /Users/soundwave2847/.gradle/caches/transforms-3/d16a0e68caf97823ab61b2dc75c250c5/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
-165        </service>
-166        <service
-166-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
-167            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-167-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
-168            android:exported="false"
-168-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
-169            android:permission="android.permission.BIND_JOB_SERVICE" />
-169-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
-170        <service
-170-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
-171            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-171-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
-172            android:exported="false" >
-172-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
-173            <intent-filter>
-173-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
-174                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-174-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
-174-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
-175            </intent-filter>
-176        </service>
-177
-178        <receiver
-178-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
-179            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-179-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
-180            android:exported="true"
-180-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
-181            android:permission="com.google.android.c2dm.permission.SEND" >
-181-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
-182            <intent-filter>
-182-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
-183                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-183-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
-183-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
-184            </intent-filter>
-185        </receiver>
-186
-187        <provider
-187-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
-188            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-188-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
-189            android:authorities="barmonkey.io.flutterfirebasemessaginginitprovider"
-189-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
-190            android:exported="false"
-190-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
-191            android:initOrder="99" />
-191-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
-192
-193        <service
-193-->[:geolocator_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
-194            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-194-->[:geolocator_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
-195            android:enabled="true"
-195-->[:geolocator_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
-196            android:exported="false"
-196-->[:geolocator_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
-197            android:foregroundServiceType="location" />
-197-->[:geolocator_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
-198
-199        <provider
-199-->[:image_picker_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
-200            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-200-->[:image_picker_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
-201            android:authorities="barmonkey.io.flutter.image_provider"
-201-->[:image_picker_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
-202            android:exported="false"
-202-->[:image_picker_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
-203            android:grantUriPermissions="true" >
-203-->[:image_picker_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
-204            <meta-data
-204-->[:image_picker_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
-205                android:name="android.support.FILE_PROVIDER_PATHS"
-205-->[:image_picker_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
-206                android:resource="@xml/flutter_image_picker_file_paths" />
-206-->[:image_picker_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
-207        </provider>
-208
-209        <receiver
-209-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
-210            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
-210-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
-211            android:exported="false" />
-211-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
-212        <receiver
-212-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
-213            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-213-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
-214            android:exported="false" />
-214-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
-215        <receiver
-215-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
-216            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-216-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
-217            android:exported="false" >
-217-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
-218            <intent-filter>
-218-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
-219                <action android:name="android.intent.action.BOOT_COMPLETED" />
-219-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
-219-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
-220                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-220-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
-220-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
-221                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-221-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
-221-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
-222                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-222-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
-222-->[:flutter_local_notifications] /Users/soundwave2847/StudioProjects/bar_monkey/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
-223            </intent-filter>
-224        </receiver>
+161-->[com.google.firebase:firebase-installations:17.1.4] /Users/soundwave2847/.gradle/caches/transforms-3/e9deef10f1b13521428329fcfd8d6115/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:17:17-82
+162        </service>
+163        <service
+163-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+164            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+164-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+165            android:exported="false"
+165-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+166            android:permission="android.permission.BIND_JOB_SERVICE" />
+166-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+167        <service
+167-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+168            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+168-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+169            android:exported="false" >
+169-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+170            <intent-filter>
+170-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+171                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+171-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+171-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+172            </intent-filter>
+173        </service>
+174
+175        <receiver
+175-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+176            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+176-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+177            android:exported="true"
+177-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+178            android:permission="com.google.android.c2dm.permission.SEND" >
+178-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+179            <intent-filter>
+179-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+180                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+180-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+180-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+181            </intent-filter>
+182        </receiver>
+183
+184        <provider
+184-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+185            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+185-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+186            android:authorities="barmonkey.io.flutterfirebasemessaginginitprovider"
+186-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+187            android:exported="false"
+187-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+188            android:initOrder="99" />
+188-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+189
+190        <service
+190-->[:geolocator_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+191            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+191-->[:geolocator_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+192            android:enabled="true"
+192-->[:geolocator_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+193            android:exported="false"
+193-->[:geolocator_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+194            android:foregroundServiceType="location" />
+194-->[:geolocator_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+195
+196        <provider
+196-->[:image_picker_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+197            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+197-->[:image_picker_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+198            android:authorities="barmonkey.io.flutter.image_provider"
+198-->[:image_picker_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+199            android:exported="false"
+199-->[:image_picker_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+200            android:grantUriPermissions="true" >
+200-->[:image_picker_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+201            <meta-data
+201-->[:image_picker_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+202                android:name="android.support.FILE_PROVIDER_PATHS"
+202-->[:image_picker_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+203                android:resource="@xml/flutter_image_picker_file_paths" />
+203-->[:image_picker_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+204        </provider>
+205
+206        <activity
+206-->[:url_launcher_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+207            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+207-->[:url_launcher_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+208            android:exported="false"
+208-->[:url_launcher_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+209            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+209-->[:url_launcher_android] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+210
+211        <service
+211-->[:location] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+212            android:name="com.lyokone.location.FlutterLocationService"
+212-->[:location] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+213            android:enabled="true"
+213-->[:location] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+214            android:exported="false"
+214-->[:location] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+215            android:foregroundServiceType="location" />
+215-->[:location] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+216
+217        <activity
+217-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:29:9-46:20
+218            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+218-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:30:13-80
+219            android:excludeFromRecents="true"
+219-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:31:13-46
+220            android:exported="true"
+220-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:32:13-36
+221            android:launchMode="singleTask"
+221-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:33:13-44
+222            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+222-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:34:13-72
+223            <intent-filter>
+223-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:35:13-45:29
+224                <action android:name="android.intent.action.VIEW" />
+224-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:12:11-63
+224-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:12:19-60
 225
-226        <activity
-226-->[:url_launcher_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
-227            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-227-->[:url_launcher_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
-228            android:exported="false"
-228-->[:url_launcher_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
-229            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-229-->[:url_launcher_android] /Users/soundwave2847/StudioProjects/bar_monkey/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
-230
-231        <service
-231-->[:location] /Users/soundwave2847/StudioProjects/bar_monkey/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
-232            android:name="com.lyokone.location.FlutterLocationService"
-232-->[:location] /Users/soundwave2847/StudioProjects/bar_monkey/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
-233            android:enabled="true"
-233-->[:location] /Users/soundwave2847/StudioProjects/bar_monkey/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
-234            android:exported="false"
-234-->[:location] /Users/soundwave2847/StudioProjects/bar_monkey/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
-235            android:foregroundServiceType="location" />
-235-->[:location] /Users/soundwave2847/StudioProjects/bar_monkey/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
-236
-237        <activity
-237-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
-238            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-238-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
-239            android:excludeFromRecents="true"
-239-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
-240            android:exported="true"
-240-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
-241            android:launchMode="singleTask"
-241-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
-242            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-242-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
-243            <intent-filter>
-243-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
-244                <action android:name="android.intent.action.VIEW" />
-244-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:12:11-63
-244-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:12:19-60
-245
-246                <category android:name="android.intent.category.DEFAULT" />
-246-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
-246-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
-247                <category android:name="android.intent.category.BROWSABLE" />
-247-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
-247-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
-248
-249                <data
-249-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:13:11-49
-250                    android:host="firebase.auth"
-251                    android:path="/"
-252                    android:scheme="genericidp" />
-253            </intent-filter>
-254        </activity>
-255        <activity
-255-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
-256            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-256-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
-257            android:excludeFromRecents="true"
-257-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
-258            android:exported="true"
-258-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
-259            android:launchMode="singleTask"
-259-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
-260            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-260-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+226                <category android:name="android.intent.category.DEFAULT" />
+226-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:38:17-76
+226-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:38:27-73
+227                <category android:name="android.intent.category.BROWSABLE" />
+227-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:39:17-78
+227-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:39:27-75
+228
+229                <data
+229-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:13:11-49
+230                    android:host="firebase.auth"
+231                    android:path="/"
+232                    android:scheme="genericidp" />
+233            </intent-filter>
+234        </activity>
+235        <activity
+235-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:47:9-64:20
+236            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+236-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:48:13-79
+237            android:excludeFromRecents="true"
+237-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:49:13-46
+238            android:exported="true"
+238-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:50:13-36
+239            android:launchMode="singleTask"
+239-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:51:13-44
+240            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+240-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:52:13-72
+241            <intent-filter>
+241-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:53:13-63:29
+242                <action android:name="android.intent.action.VIEW" />
+242-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:12:11-63
+242-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:12:19-60
+243
+244                <category android:name="android.intent.category.DEFAULT" />
+244-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:38:17-76
+244-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:38:27-73
+245                <category android:name="android.intent.category.BROWSABLE" />
+245-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:39:17-78
+245-->[com.google.firebase:firebase-auth:22.1.2] /Users/soundwave2847/.gradle/caches/transforms-3/e9ba5a5612953ae14575678b94bd60ca/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:39:27-75
+246
+247                <data
+247-->/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/android/app/src/main/AndroidManifest.xml:13:11-49
+248                    android:host="firebase.auth"
+249                    android:path="/"
+250                    android:scheme="recaptcha" />
+251            </intent-filter>
+252        </activity> <!-- Needs to be explicitly declared on P+ -->
+253        <uses-library
+253-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/252800547586ce91da8d12bbd4b11aca/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+254            android:name="org.apache.http.legacy"
+254-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/252800547586ce91da8d12bbd4b11aca/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+255            android:required="false" />
+255-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/252800547586ce91da8d12bbd4b11aca/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+256
+257        <receiver
+257-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:29:9-36:20
+258            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+258-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:30:13-78
+259            android:exported="true"
+259-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:31:13-36
+260            android:permission="com.google.android.c2dm.permission.SEND" >
+260-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:32:13-73
 261            <intent-filter>
-261-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
-262                <action android:name="android.intent.action.VIEW" />
-262-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:12:11-63
-262-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:12:19-60
-263
-264                <category android:name="android.intent.category.DEFAULT" />
-264-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
-264-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
-265                <category android:name="android.intent.category.BROWSABLE" />
-265-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
-265-->[com.google.firebase:firebase-auth:22.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/5d9111ccb6f59e79b8d51b2d42f0097b/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
-266
-267                <data
-267-->/Users/soundwave2847/StudioProjects/bar_monkey/android/app/src/main/AndroidManifest.xml:13:11-49
-268                    android:host="firebase.auth"
-269                    android:path="/"
-270                    android:scheme="recaptcha" />
-271            </intent-filter>
-272        </activity> <!-- Needs to be explicitly declared on P+ -->
-273        <uses-library
-273-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/78c46ea1c7bfb284a91d9febbba59a1a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
-274            android:name="org.apache.http.legacy"
-274-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/78c46ea1c7bfb284a91d9febbba59a1a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
-275            android:required="false" />
-275-->[com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/78c46ea1c7bfb284a91d9febbba59a1a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
-276
-277        <receiver
-277-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
-278            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-278-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
-279            android:exported="true"
-279-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
-280            android:permission="com.google.android.c2dm.permission.SEND" >
-280-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
-281            <intent-filter>
-281-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
-282                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-282-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
-282-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
-283            </intent-filter>
-284        </receiver>
-285        <!--
-286             FirebaseMessagingService performs security checks at runtime,
-287             but set to not exported to explicitly avoid allowing another app to call it.
-288        -->
-289        <service
-289-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
-290            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-290-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
-291            android:directBootAware="true"
-291-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
-292            android:exported="false" >
-292-->[com.google.firebase:firebase-messaging:23.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/fefec3c9df3114aaa5381c333b2c7b11/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
-293            <intent-filter android:priority="-500" >
-293-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
-294                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-294-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
-294-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/bar_monkey/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
-295            </intent-filter>
-296        </service>
-297
-298        <provider
-298-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/cdee480617d8040e445d3cb851e491ba/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
-299            android:name="com.google.firebase.provider.FirebaseInitProvider"
-299-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/cdee480617d8040e445d3cb851e491ba/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
-300            android:authorities="barmonkey.io.firebaseinitprovider"
-300-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/cdee480617d8040e445d3cb851e491ba/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
-301            android:directBootAware="true"
-301-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/cdee480617d8040e445d3cb851e491ba/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
-302            android:exported="false"
-302-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/cdee480617d8040e445d3cb851e491ba/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
-303            android:initOrder="100" />
-303-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/cdee480617d8040e445d3cb851e491ba/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
-304
-305        <receiver
-305-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
-306            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-306-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
-307            android:enabled="true"
-307-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
-308            android:exported="false" >
-308-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
-309        </receiver>
-310
-311        <service
-311-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
-312            android:name="com.google.android.gms.measurement.AppMeasurementService"
-312-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
-313            android:enabled="true"
-313-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
-314            android:exported="false" />
-314-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
-315        <service
-315-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
-316            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-316-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
-317            android:enabled="true"
-317-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
-318            android:exported="false"
-318-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
-319            android:permission="android.permission.BIND_JOB_SERVICE" />
-319-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/04bdd0d3c20e66a052b9713e90275e09/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+261-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+262                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+262-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+262-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+263            </intent-filter>
+264        </receiver>
+265        <!--
+266             FirebaseMessagingService performs security checks at runtime,
+267             but set to not exported to explicitly avoid allowing another app to call it.
+268        -->
+269        <service
+269-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:42:9-49:19
+270            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+270-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:43:13-82
+271            android:directBootAware="true"
+271-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:44:13-43
+272            android:exported="false" >
+272-->[com.google.firebase:firebase-messaging:23.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/6ad963849445af20212004aac02d78ac/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:45:13-37
+273            <intent-filter android:priority="-500" >
+273-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+274                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+274-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+274-->[:firebase_messaging] /Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+275            </intent-filter>
+276        </service>
+277
+278        <provider
+278-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/08ca0e1439c3ca038d01c6924a6f7426/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+279            android:name="com.google.firebase.provider.FirebaseInitProvider"
+279-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/08ca0e1439c3ca038d01c6924a6f7426/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+280            android:authorities="barmonkey.io.firebaseinitprovider"
+280-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/08ca0e1439c3ca038d01c6924a6f7426/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+281            android:directBootAware="true"
+281-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/08ca0e1439c3ca038d01c6924a6f7426/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+282            android:exported="false"
+282-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/08ca0e1439c3ca038d01c6924a6f7426/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+283            android:initOrder="100" />
+283-->[com.google.firebase:firebase-common:20.3.3] /Users/soundwave2847/.gradle/caches/transforms-3/08ca0e1439c3ca038d01c6924a6f7426/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+284
+285        <receiver
+285-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+286            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+286-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+287            android:enabled="true"
+287-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+288            android:exported="false" >
+288-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+289        </receiver>
+290
+291        <service
+291-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+292            android:name="com.google.android.gms.measurement.AppMeasurementService"
+292-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+293            android:enabled="true"
+293-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+294            android:exported="false" />
+294-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+295        <service
+295-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+296            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+296-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+297            android:enabled="true"
+297-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+298            android:exported="false"
+298-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+299            android:permission="android.permission.BIND_JOB_SERVICE" />
+299-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/77c37d2a2e0b3eac875174b07a642ead/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+300
+301        <activity
+301-->[com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/b39d2a06e74ddeb65b14ccb31f028853/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+302            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+302-->[com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/b39d2a06e74ddeb65b14ccb31f028853/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+303            android:exported="false"
+303-->[com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/b39d2a06e74ddeb65b14ccb31f028853/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+304            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+304-->[com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/b39d2a06e74ddeb65b14ccb31f028853/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+305
+306        <provider
+306-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/3b5eea62ac5f512b438036d64129f337/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+307            android:name="androidx.startup.InitializationProvider"
+307-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/3b5eea62ac5f512b438036d64129f337/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+308            android:authorities="barmonkey.io.androidx-startup"
+308-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/3b5eea62ac5f512b438036d64129f337/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+309            android:exported="false" >
+309-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/3b5eea62ac5f512b438036d64129f337/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+310            <meta-data
+310-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/3b5eea62ac5f512b438036d64129f337/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+311                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+311-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/3b5eea62ac5f512b438036d64129f337/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+312                android:value="androidx.startup" />
+312-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/3b5eea62ac5f512b438036d64129f337/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+313            <meta-data
+313-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/1c18a1c4b188b8882bf733e4b3738f95/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+314                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+314-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/1c18a1c4b188b8882bf733e4b3738f95/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+315                android:value="androidx.startup" />
+315-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/1c18a1c4b188b8882bf733e4b3738f95/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+316            <meta-data
+316-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+317                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+317-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+318                android:value="androidx.startup" />
+318-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+319        </provider>
 320
-321        <activity
-321-->[com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/da312ef8a5f401b5e60496712c78ecf7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
-322            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-322-->[com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/da312ef8a5f401b5e60496712c78ecf7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-323            android:exported="false"
-323-->[com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/da312ef8a5f401b5e60496712c78ecf7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
-324            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-324-->[com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/da312ef8a5f401b5e60496712c78ecf7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
-325
-326        <meta-data
-326-->[com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/4ef8e7d9a60cff636871604cf50e4184/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-327            android:name="com.google.android.gms.version"
-327-->[com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/4ef8e7d9a60cff636871604cf50e4184/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-328            android:value="@integer/google_play_services_version" />
-328-->[com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/4ef8e7d9a60cff636871604cf50e4184/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-329
-330        <provider
-330-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d4a0bd43cbba93cef7676a46b64f4633/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-331            android:name="androidx.startup.InitializationProvider"
-331-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d4a0bd43cbba93cef7676a46b64f4633/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-332            android:authorities="barmonkey.io.androidx-startup"
-332-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d4a0bd43cbba93cef7676a46b64f4633/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-333            android:exported="false" >
-333-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d4a0bd43cbba93cef7676a46b64f4633/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-334            <meta-data
-334-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d4a0bd43cbba93cef7676a46b64f4633/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-335                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-335-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d4a0bd43cbba93cef7676a46b64f4633/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-336                android:value="androidx.startup" />
-336-->[androidx.emoji2:emoji2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d4a0bd43cbba93cef7676a46b64f4633/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-337            <meta-data
-337-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/26591602307cad9a6b77d002f77e4f11/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-338                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-338-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/26591602307cad9a6b77d002f77e4f11/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-339                android:value="androidx.startup" />
-339-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/26591602307cad9a6b77d002f77e4f11/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-340            <meta-data
-340-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-341                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-341-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-342                android:value="androidx.startup" />
-342-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-343        </provider>
-344
-345        <uses-library
-345-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-346            android:name="androidx.window.extensions"
-346-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-347            android:required="false" />
-347-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-348        <uses-library
-348-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-349            android:name="androidx.window.sidecar"
-349-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-350            android:required="false" />
-350-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/43bc8ed9b6db7f25db0bc2b571e801e5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+321        <uses-library
+321-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/b27a672b9744fea25b7e162850e636eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+322            android:name="androidx.window.extensions"
+322-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/b27a672b9744fea25b7e162850e636eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+323            android:required="false" />
+323-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/b27a672b9744fea25b7e162850e636eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+324        <uses-library
+324-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/b27a672b9744fea25b7e162850e636eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+325            android:name="androidx.window.sidecar"
+325-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/b27a672b9744fea25b7e162850e636eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+326            android:required="false" />
+326-->[androidx.window:window:1.0.0-beta04] /Users/soundwave2847/.gradle/caches/transforms-3/b27a672b9744fea25b7e162850e636eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+327
+328        <meta-data
+328-->[com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/28f418d4fcc8177af57c0393f1777542/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+329            android:name="com.google.android.gms.version"
+329-->[com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/28f418d4fcc8177af57c0393f1777542/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+330            android:value="@integer/google_play_services_version" />
+330-->[com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/28f418d4fcc8177af57c0393f1777542/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+331
+332        <receiver
+332-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+333            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+333-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+334            android:directBootAware="false"
+334-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+335            android:enabled="true"
+335-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+336            android:exported="true"
+336-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+337            android:permission="android.permission.DUMP" >
+337-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+338            <intent-filter>
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+339                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+339-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+339-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+340            </intent-filter>
+341            <intent-filter>
+341-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+342                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+342-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+342-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+343            </intent-filter>
+344            <intent-filter>
+344-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+345                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+345-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+345-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+346            </intent-filter>
+347            <intent-filter>
+347-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+348                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+348-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+348-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/4e5e0ebcec5e762b6a2ad2c6707bb674/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+349            </intent-filter>
+350        </receiver>
 351
 352        <service
-352-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/13e8d01da674715e0e67175b54957afd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+352-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/028a921dcf2226fc64dca33e797053a2/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
 353            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-353-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/13e8d01da674715e0e67175b54957afd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+353-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/028a921dcf2226fc64dca33e797053a2/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
 354            android:exported="false" >
-354-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/13e8d01da674715e0e67175b54957afd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+354-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/028a921dcf2226fc64dca33e797053a2/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
 355            <meta-data
-355-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/13e8d01da674715e0e67175b54957afd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+355-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/028a921dcf2226fc64dca33e797053a2/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
 356                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-356-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/13e8d01da674715e0e67175b54957afd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+356-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/028a921dcf2226fc64dca33e797053a2/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
 357                android:value="cct" />
-357-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/13e8d01da674715e0e67175b54957afd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+357-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/028a921dcf2226fc64dca33e797053a2/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
 358        </service>
 359        <service
-359-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/031e785ae6f8e945299066fed89d4d4e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+359-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/804bcba242efd81e01b6185c70f6d2e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
 360            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-360-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/031e785ae6f8e945299066fed89d4d4e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+360-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/804bcba242efd81e01b6185c70f6d2e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
 361            android:exported="false"
-361-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/031e785ae6f8e945299066fed89d4d4e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+361-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/804bcba242efd81e01b6185c70f6d2e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
 362            android:permission="android.permission.BIND_JOB_SERVICE" >
-362-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/031e785ae6f8e945299066fed89d4d4e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+362-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/804bcba242efd81e01b6185c70f6d2e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
 363        </service>
 364
 365        <receiver
-365-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/031e785ae6f8e945299066fed89d4d4e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+365-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/804bcba242efd81e01b6185c70f6d2e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
 366            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-366-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/031e785ae6f8e945299066fed89d4d4e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+366-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/804bcba242efd81e01b6185c70f6d2e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
 367            android:exported="false" />
-367-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/031e785ae6f8e945299066fed89d4d4e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
-368        <receiver
-368-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-369            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-369-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-370            android:directBootAware="false"
-370-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-371            android:enabled="true"
-371-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-372            android:exported="true"
-372-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-373            android:permission="android.permission.DUMP" >
-373-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-374            <intent-filter>
-374-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-375                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-375-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-375-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-376            </intent-filter>
-377            <intent-filter>
-377-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-378                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-378-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-378-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-379            </intent-filter>
-380            <intent-filter>
-380-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-381                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-381-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-381-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-382            </intent-filter>
-383            <intent-filter>
-383-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-384                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-384-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-384-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9d46ae6bcd2d33e8e359b178a61b1048/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-385            </intent-filter>
-386        </receiver>
-387
-388        <activity
-388-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
-389            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-389-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
-390            android:clearTaskOnLaunch="true"
-390-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
-391            android:screenOrientation="sensorLandscape"
-391-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
-392            android:stateNotNeeded="true"
-392-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
-393            android:theme="@style/zxing_CaptureTheme"
-393-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
-394            android:windowSoftInputMode="stateAlwaysHidden" />
-394-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e72e91fef124a555d0a4fdad3a0758f1/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
-395    </application>
-396
-397</manifest>
+367-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/soundwave2847/.gradle/caches/transforms-3/804bcba242efd81e01b6185c70f6d2e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+368
+369        <activity
+369-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+370            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+370-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+371            android:clearTaskOnLaunch="true"
+371-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+372            android:screenOrientation="sensorLandscape"
+372-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+373            android:stateNotNeeded="true"
+373-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+374            android:theme="@style/zxing_CaptureTheme"
+374-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+375            android:windowSoftInputMode="stateAlwaysHidden" />
+375-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/11f2ffd36ab4126d9b987b512fa8c541/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+376    </application>
+377
+378</manifest>

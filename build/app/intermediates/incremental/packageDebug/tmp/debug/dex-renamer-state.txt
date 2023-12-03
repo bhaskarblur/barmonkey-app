@@ -1,7 +1,7 @@
-#Wed Jul 19 23:16:04 IST 2023
-base.0=/Users/soundwave2847/StudioProjects/bar_monkey/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-base.1=/Users/soundwave2847/StudioProjects/bar_monkey/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
-base.2=/Users/soundwave2847/StudioProjects/bar_monkey/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
+#Sun Dec 03 15:25:51 IST 2023
+base.0=/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+base.1=/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+base.2=/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
 path.0=classes.dex
 path.1=classes2.dex
 path.2=classes3.dex

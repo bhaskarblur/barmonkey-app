@@ -32,12 +32,12 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
   @override
   void initState() {
     final provider = Provider.of<ProfileProvider>(context, listen: false);
-    _firstName.text = provider.profile['data']['firstName'];
-    _lastName.text = provider.profile['data']['lastName'];
+    _firstName.text = provider.profile['data']['firstName']?? '';
+    _lastName.text = provider.profile['data']['lastName']?? '';
     _favDrink.text = provider.profile['data']['favouriteDrink'];
     _bio.text = provider.profile['data']['bio'];
 
-    _date = DateTime.parse(provider.profile['data']['dob']);
+    _date = DateTime.parse(provider.profile['data']['dob']?? DateTime.now().toString());
 
     super.initState();
   }
@@ -194,10 +194,16 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
                                     "bio": _bio.text
                                   }).then((value) {
                                 if (value['flag'] == true) {
+                                  print('messageSaved');
+                                  print(value);
                                   getData();
                                 } else {
+                                  print("error");
+                                  print(value['error']);
                                   dialog(context,
                                       value['message'] ?? value['error'], () {
+                                    print("error");
+                                    print(value['error']);
                                     Nav.pop(context);
                                   });
                                 }

@@ -1,4 +1,5 @@
 import 'package:bar_monkey/providers/bars_provider.dart';
+import 'package:bar_monkey/screens/tab_screens/discover_screens/discover_screen.dart';
 
 import '/providers/home_screen_provider.dart';
 import '/screens/tab_screens/meet_screens/meet_screens.dart';
@@ -27,9 +28,9 @@ class _TabScreenState extends State<TabScreen> {
 
   final List<Widget> _screens = [
     const OrdersScreen(),
-    const MeetScreen(),
-    const HomePage(),
     const SocialScreen(),
+    const HomePage(),
+    const DiscoverScreen(),
     const ProfileScreen(),
   ];
 
@@ -89,6 +90,20 @@ class _TabScreenState extends State<TabScreen> {
                       height: 26,
                       width: 26)),
             ),
+            // Expanded(
+            //   child: InkWell(
+            //       onTap: () {
+            //         barsProvider.resetFilter();
+            //         barsProvider.clearSearchedBars();
+            //         provider.changeSelectedIndex(1);
+            //       },
+            //       child: SvgPicture.asset(
+            //           provider.selectedIndex == 3
+            //               ? 'assets/icons/home_icons/person_color.svg'
+            //               : 'assets/icons/home_icons/person.svg',
+            //           height: 26,
+            //           width: 26)),
+            // ),
             Expanded(
               child: InkWell(
                   onTap: () {
@@ -98,10 +113,10 @@ class _TabScreenState extends State<TabScreen> {
                   },
                   child: SvgPicture.asset(
                       provider.selectedIndex == 1
-                          ? 'assets/icons/home_icons/person_color.svg'
-                          : 'assets/icons/home_icons/person.svg',
-                      height: 26,
-                      width: 26)),
+                          ? 'assets/icons/home_icons/social_color.svg'
+                          : 'assets/icons/home_icons/social.svg',
+                      height: 28,
+                      width: 28)),
             ),
             Expanded(
               child: InkWell(
@@ -124,8 +139,8 @@ class _TabScreenState extends State<TabScreen> {
                   },
                   child: SvgPicture.asset(
                       provider.selectedIndex == 3
-                          ? 'assets/icons/home_icons/social_color.svg'
-                          : 'assets/icons/home_icons/social.svg',
+                          ? 'assets/icons/discover_active.svg'
+                          : 'assets/icons/discover_inactive.svg',
                       height: 28,
                       width: 28)),
             ),

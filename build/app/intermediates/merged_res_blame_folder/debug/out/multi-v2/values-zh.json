@@ -4,7 +4,7 @@
             "outputFile": "barmonkey.io.app-mergeDebugResources-38:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "/Users/soundwave2847/.gradle/caches/transforms-3/1b5abe4010b3df82b96193a6b68f9f20/transformed/jetified-ucrop-2.2.8/res/values-zh/values-zh.xml",
+                    "source": "/Users/soundwave2847/.gradle/caches/transforms-3/d42392b678a9c93dbb28f3ad426f46fa/transformed/jetified-ucrop-2.2.8/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

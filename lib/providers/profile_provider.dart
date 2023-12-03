@@ -12,7 +12,12 @@ class ProfileProvider with ChangeNotifier {
   List<dynamic> get posts => _posts;
 
   chnagePosts(dynamic value) {
-    _posts = value;
+    if(value!=null) {
+      _posts = value;
+    }
+    else {
+      _posts = [];
+    }
     notifyListeners();
   }
 

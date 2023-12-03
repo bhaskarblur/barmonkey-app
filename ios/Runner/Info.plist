@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app uses location to get user location and personalize their feed according to their location</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app uses camera to allow users to click a picture from camera directly and add to app</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app uses photo library to allow users to add and post their photos in app</string>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -16,18 +24,6 @@
 	<string>BarMonkey</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<!--  -->
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app needs access to location when open.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This app needs access to location when in the background.</string>
-
-	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
-	<dict>
-    <key>YourPurposeKey</key>
-  	<string>The example App requires temporary access to the device&apos;s precise location.</string>
-	</dict>
-	<!--  -->
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
@@ -35,6 +31,17 @@
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app needs access to location when in the background.</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>YourPurposeKey</key>
+		<string>The App requires temporary access to the device&apos;s precise location.</string>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to location when open.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
@@ -55,9 +62,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
 </dict>
 </plist>
