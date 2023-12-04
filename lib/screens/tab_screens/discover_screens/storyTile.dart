@@ -1,4 +1,5 @@
 
+import 'package:bar_monkey/screens/tab_screens/discover_screens/storyBottomDialog.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +21,7 @@ Widget storyTileList(BuildContext context, dynamic storyList) {
         dynamic data = storyList[index];
         return InkWell(
           onTap: () {
+            showModalBottomSheet(context: context, builder: (_) => storyBottomDialog(storyList[index]));
           },
           child: Container(
             width: 62.0,

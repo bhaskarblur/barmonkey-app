@@ -221,12 +221,12 @@ class ApiServices {
 
   getCurrentLocation(BuildContext context) {
     getLocation().then((value1) {
-      final provider = Provider.of<MapProvider>(context, listen: false);
+      // final provider = Provider.of<MapProvider>(context, listen: false);
 
-      provider.changeCurrentPosition(LabelMarker(
-          label: 'You',
-          markerId: const MarkerId('You'),
-          position: LatLng(value1.latitude, value1.longitude)));
+      // provider.changeCurrentPosition(LabelMarker(
+      //     label: 'You',
+      //     markerId: const MarkerId('You'),
+      //     position: LatLng(value1.latitude, value1.longitude)));
 
       patch(
         progressBar: false,

@@ -134,7 +134,8 @@ class _DealsScreenState extends State<DealsScreen> {
                   gap(20),
                   if (provider.dealBars.isNotEmpty)
                     Expanded(
-                      child: ListView.separated(
+                      child:
+                      ListView.separated(
                         shrinkWrap: true,
                         itemCount: provider.dealBars.length,
                         separatorBuilder: (context, index) {

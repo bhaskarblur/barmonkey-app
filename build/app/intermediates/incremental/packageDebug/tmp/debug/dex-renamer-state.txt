@@ -1,4 +1,4 @@
-#Sun Dec 03 15:25:51 IST 2023
+#Mon Dec 04 12:06:01 IST 2023
 base.0=/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 base.1=/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
 base.2=/Users/soundwave2847/StudioProjects/ecommerce-nodejs/barmonkey-app/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex

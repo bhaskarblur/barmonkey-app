@@ -59,6 +59,27 @@ Widget borderedButton(
   );
 }
 
+Widget borderedWhiteButton(
+    {required String buttonName,
+      required void Function() onTap,
+      double? width}) {
+  return InkWell(
+    onTap: onTap,
+    child: Container(
+        height: 50,
+        width: width,
+        decoration: BoxDecoration(
+            border: Border.all(color: primaryTextColor),
+            borderRadius: BorderRadius.circular(5)),
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Center(
+            child: Text(buttonName,
+                style: TextStyle(color: primaryTextColor, fontSize: 16)),
+          ),
+        )),
+  );
+}
 Widget customTextField(TextEditingController controller, String hintText,
     {IconData? leading,
     Color fillColor = Colors.black,
