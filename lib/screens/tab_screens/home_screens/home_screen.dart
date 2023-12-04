@@ -2,6 +2,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:location/location.dart';
 
+import '../discover_screens/yes_maybe_noTile.dart';
 import '/api_services.dart';
 import '/app_config/colors.dart';
 import '/providers/bars_provider.dart';
@@ -317,15 +318,24 @@ class _HomePageState extends State<HomePage> {
                                                 listView(context,
                                                     provider.barsNearbyUsers),
                                                 gap(10),
-                                                Text('Liked by Your Friends',
+                                                // Text('Liked by Your Friends',
+                                                //     style: TextStyle(
+                                                //         fontWeight:
+                                                //             FontWeight.bold,
+                                                //         fontSize: 16,
+                                                //         color:
+                                                //             primaryTextColor)),
+                                                // listView(context,
+                                                //     provider.likedByFriends),
+                                                Text('You Said Yes',
                                                     style: TextStyle(
                                                         fontWeight:
                                                             FontWeight.bold,
                                                         fontSize: 16,
                                                         color:
                                                             primaryTextColor)),
-                                                listView(context,
-                                                    provider.likedByFriends),
+                                                gap(12),
+                                                yesMaybeNoList(context, [], 0, 270),
                                                 gap(60),
                                               ],
                                             ),

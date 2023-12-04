@@ -144,7 +144,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                               gap(14),
                               yesMaybeNoList(context, [{"title":"Come home to me i am playing", "location": "Georgia", "time" :"9:00",
                                 "date" : "12 Aug, 2023", "totalPeople": "12" }, {"title":"Come home to me i am playing", "location": "Georgia", "time" :"9:00",
-                                "date" : "12 Aug, 2023", "totalPeople": "12" }]),
+                                "date" : "12 Aug, 2023", "totalPeople": "12" }], 0, 270),
                               gap(14),
                               Text("Deals",
                                   style: TextStyle(

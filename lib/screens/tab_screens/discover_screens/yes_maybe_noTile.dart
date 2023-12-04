@@ -9,16 +9,16 @@ import '../../../app_config/app_details.dart';
 import '../../../app_config/colors.dart';
 import '../../../widget/widgets.dart';
 
-Widget yesMaybeNoList(BuildContext context, dynamic storyList) {
+Widget yesMaybeNoList(BuildContext context, dynamic storyList, int direction, int? height) {
   return SizedBox(
-    height: 270,
+    height: height != null ? height.toDouble() : MediaQuery.of(context).size.height,
     child: storyList != null
         ? storyList.length > 0
             ? ListView.separated(
-                scrollDirection: Axis.horizontal,
+                scrollDirection: direction == 0 ? Axis.horizontal : Axis.vertical ,
                 itemCount: storyList.length,
                 separatorBuilder: (context, index) {
-                  return horGap(10);
+                  return direction == 0 ? horGap(10) : gap(12);
                 },
                 itemBuilder: (context, index) {
                   dynamic data = storyList[index];
@@ -65,7 +65,8 @@ Widget yesMaybeNoList(BuildContext context, dynamic storyList) {
                     const SizedBox(height: 12),
                   InkWell(
                   onTap: () {
-                    showModalBottomSheet(context: context, builder: (_) => yesMaybeNoBottomDialog({}));
+                    showBottomSheet(context: context, builder: (_) => yesMaybeNoBottomDialog({}),
+                    enableDrag: true);
                   },
                   child:
                     Container(
@@ -97,7 +98,7 @@ Widget yesMaybeNoList(BuildContext context, dynamic storyList) {
                                      children: [
                                        Icon(Icons.date_range, color: primaryColor,),
                                        horGap(6),
-                                       Text(data['date'],
+                                       Text(data['date']?? 'date',
                                            style: TextStyle(
                                                fontSize: 16,
                                                color: primaryTextColor,
@@ -117,7 +118,7 @@ Widget yesMaybeNoList(BuildContext context, dynamic storyList) {
                                     children: [
                                       Icon(Icons.watch_later_outlined, color: primaryColor,),
                                       horGap(6),
-                                      Text(data['time'],
+                                      Text(data['time']?? 'time',
                                           style: TextStyle(
                                               fontSize: 16,
                                               color: primaryTextColor,
@@ -135,10 +136,11 @@ Widget yesMaybeNoList(BuildContext context, dynamic storyList) {
                               child: Padding(
                                 padding: EdgeInsets.all(8),
                                 child: Row(
+                                  mainAxisSize: MainAxisSize.min,
                                   children: [
                                   Icon(Icons.location_on, color: primaryColor),
                                   horGap(6),
-                                  Text(data['location'],
+                                  Text(data['location']?? 'location',
                                       style: TextStyle(
                                           fontSize: 16,
                                           color: primaryTextColor,
@@ -158,14 +160,14 @@ Widget yesMaybeNoList(BuildContext context, dynamic storyList) {
                                 children: [
                                   Icon(Icons.thumb_up_off_alt_outlined, color: primaryTextColor, size: 22,),
                                   horGap(6),
-                                  Text(data['totalPeople'] + ' People Going',
+                                  Text(data['totalPeople'] != null ? data['totalPeople']  + ' People Going' : '20'  + ' People Going',
                                       style: TextStyle(
                                           fontSize: 16,
                                           color: primaryTextColor,
                                           fontWeight: FontWeight.w500))
                                 ]),
-                              horGap(150),
-                              Icon(Icons.lock_outline, color: primaryColor),
+                              horGap(direction == 0 ? 150 : 165),
+                              Icon(data['privacy'] == 0 ? Icons.lock_outline : Icons.lock_open_rounded, color: primaryColor),
                               ])
                                 )
                               ],
@@ -176,14 +178,14 @@ Widget yesMaybeNoList(BuildContext context, dynamic storyList) {
                 },
               )
             : Center(
-                child: Text('No Yes Maybe No Found',
+                child: Text('No Yes Maybe No Yet!',
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: primaryColor,
                         fontSize: 16)),
               )
         : Center(
-            child: Text('No Yes Maybe No Found',
+            child: Text('No Yes Maybe No Yet!',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: primaryColor,

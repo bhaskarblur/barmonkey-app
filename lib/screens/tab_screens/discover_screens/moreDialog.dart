@@ -1,4 +1,6 @@
 
+import 'package:bar_monkey/screens/tab_screens/discover_screens/yesMaybeNoCreatorScreen.dart';
+import 'package:bar_monkey/screens/tab_screens/discover_screens/yesMaybeNoScreen.dart';
 import 'package:bar_monkey/screens/tab_screens/home_screens/deals_screen.dart';
 import 'package:bar_monkey/widget/widgets.dart';
 import 'package:flutter/cupertino.dart';
@@ -23,6 +25,7 @@ class moreOptionsDialog extends StatelessWidget {
         }, width: MediaQuery.of(context).size.width - 20),
         gap(28),
         borderedWhiteButton(buttonName: "Yes Maybe No", onTap: () {
+          Navigator.of(context).push(MaterialPageRoute(builder: (context) => yesMaybeNoScreen()));
         }, width: MediaQuery.of(context).size.width - 20),
         gap(28),
         borderedWhiteButton(buttonName: "Deals", onTap: () {
@@ -31,6 +34,7 @@ class moreOptionsDialog extends StatelessWidget {
         }, width: MediaQuery.of(context).size.width - 20),
         gap(28),
         borderedButton(buttonName: "Create Yes Maybe No", onTap: () {
+          Navigator.of(context).push(MaterialPageRoute(builder: (context) => yesMaybeNoCreatorScreen()));
         }, width: MediaQuery.of(context).size.width - 20),
       ],
     )));
