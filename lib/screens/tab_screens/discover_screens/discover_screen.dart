@@ -173,7 +173,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
       scrollDirection: Axis.horizontal,
         itemCount: requestsList !=null ? requestsList.length : 0,
         separatorBuilder: (context, index) {
-          return gap(10);
+          return horGap(10);
         },
         itemBuilder: (context, index) {
           var data = requestsList[index];

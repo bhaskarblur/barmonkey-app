@@ -1,4 +1,5 @@
 
+import 'package:bar_monkey/screens/tab_screens/discover_screens/friendRequestsScreen.dart';
 import 'package:bar_monkey/screens/tab_screens/discover_screens/yesMaybeNoCreatorScreen.dart';
 import 'package:bar_monkey/screens/tab_screens/discover_screens/yesMaybeNoScreen.dart';
 import 'package:bar_monkey/screens/tab_screens/home_screens/deals_screen.dart';
@@ -22,6 +23,7 @@ class moreOptionsDialog extends StatelessWidget {
       children: [
         gap(28),
         borderedWhiteButton(buttonName: "Friends Request", onTap: () {
+          Navigator.of(context).push(MaterialPageRoute(builder: (context) => friendRequestScreen()));
         }, width: MediaQuery.of(context).size.width - 20),
         gap(28),
         borderedWhiteButton(buttonName: "Yes Maybe No", onTap: () {
