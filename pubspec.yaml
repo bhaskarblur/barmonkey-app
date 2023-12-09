@@ -50,7 +50,7 @@ dependencies:
   connectivity: 
   permission_handler: 
   notification_permissions: 
-  fluttertoast: 
+  fluttertoast: ^8.2.4 
   firebase_messaging: 
   firebase_auth: 
   firebase_core: 

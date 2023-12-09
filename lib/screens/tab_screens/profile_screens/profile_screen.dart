@@ -492,7 +492,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                                                 }
                                               }),
                                         ),
-                                  provider.likedBars.length < 1
+                                  provider.likedBars != null
                                       ? Column(
                                           children: [
                                             Expanded(

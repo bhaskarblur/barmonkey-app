@@ -25,12 +25,26 @@ class FriendProvider with ChangeNotifier {
 
   dynamic _contactFriends;
   dynamic get contactFriends => _contactFriends;
+  dynamic _yesNoEvents;
+  dynamic get yesNoEvents => _yesNoEvents;
+
+  dynamic _yesEvents;
+  dynamic get yesEvents => _yesEvents;
 
   changeContactFriends(dynamic value) {
     _contactFriends = value;
     notifyListeners();
   }
 
+  changeYesNoEvents(dynamic value) {
+    _yesNoEvents = value;
+    notifyListeners();
+  }
+
+  changeYesEvents(dynamic value) {
+    _yesEvents = value;
+    notifyListeners();
+  }
   clearContactFriends() {
     _contactFriends = null;
     notifyListeners();
@@ -89,8 +103,45 @@ class FriendProvider with ChangeNotifier {
   dynamic _friendRequests;
   dynamic get friendRequests => _friendRequests;
 
+  dynamic _friendRequestsNearBy = [];
+  dynamic get friendRequestsNearBy => _friendRequestsNearBy;
+
+  dynamic _friendRequestsQrScan = [];
+  dynamic get friendRequestsQrScan => _friendRequestsQrScan;
+
+
+  dynamic _friendRequestsSearch = [];
+  dynamic get friendRequestsSearch => _friendRequestsSearch;
+
   changeFriendRequests(dynamic value) {
     _friendRequests = value;
+
+    for(var i=0;i<value.length; i++) {
+      if(value[i]['source'] == "search") {
+        addToFriendRequestsSearch(value[i]);
+      }
+      else if(value[i]['source'] == "meet") {
+        addToFriendRequestsNearby(value[i]);
+      }
+      else if(value[i]['source'] == "qr_scan") {
+        addToFriendRequestsQrScan(value[i]);
+      }
+    }
+    notifyListeners();
+  }
+
+  addToFriendRequestsNearby(dynamic value) {
+    _friendRequestsNearBy = value;
+    notifyListeners();
+  }
+
+  addToFriendRequestsSearch(dynamic value) {
+    _friendRequestsSearch = value;
+    notifyListeners();
+  }
+
+  addToFriendRequestsQrScan(dynamic value) {
+    _friendRequestsQrScan = value;
     notifyListeners();
   }
 

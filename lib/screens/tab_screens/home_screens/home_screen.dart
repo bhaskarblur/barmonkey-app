@@ -2,6 +2,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:location/location.dart';
 
+import '../../../providers/friend_provider.dart';
 import '../discover_screens/yes_maybe_noTile.dart';
 import '/api_services.dart';
 import '/app_config/colors.dart';
@@ -40,6 +41,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     getData();
+    getEvents();
     super.initState();
   }
 
@@ -50,6 +52,7 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         backgroundColor: backgroundColor,
         body: Consumer<BarsProvider>(builder: (context, provider, _) {
+          return Consumer<FriendProvider>(builder: (context, provider2, _) {
           return Stack(
             children: [
               Column(
@@ -335,7 +338,7 @@ class _HomePageState extends State<HomePage> {
                                                         color:
                                                             primaryTextColor)),
                                                 gap(12),
-                                                yesMaybeNoList(context, [], 0, 270),
+                                                yesMaybeNoList(context, provider2.yesEvents, 0, 270),
                                                 gap(60),
                                               ],
                                             ),
@@ -354,6 +357,7 @@ class _HomePageState extends State<HomePage> {
                     child: filterSheet(context)),
             ],
           );
+        });
         }),
       ),
     );
@@ -804,21 +808,30 @@ class _HomePageState extends State<HomePage> {
         // profileProvider.chnagePosts(value['data']['posts']);
         profileProvider.clearPosts();
 
-        if(value['data']['posts'] != null) {
-          for (int i = 0; i < value['data']['posts'].length; i++) {
-            if (value['data']['posts'][i]['isZipped'] == true) {
-              profileProvider.addToPosts(value['data']['posts'][i]);
+        if(value['data'] != null) {
+          if (value['data']['posts'] != null) {
+            for (int i = 0; i < value['data']['posts'].length; i++) {
+              if (value['data']['posts'][i]['isZipped'] == true) {
+                profileProvider.addToPosts(value['data']['posts'][i]);
+              }
             }
-          }
-          for (int i = 0; i < value['data']['posts'].length; i++) {
-            if (value['data']['posts'][i]['isZipped'] == false) {
-              profileProvider.addToPosts(value['data']['posts'][i]);
+            for (int i = 0; i < value['data']['posts'].length; i++) {
+              if (value['data']['posts'][i]['isZipped'] == false) {
+                profileProvider.addToPosts(value['data']['posts'][i]);
+              }
             }
           }
         }
           profileProvider.notify();
 
       });
+    });
+  }
+
+  getEvents() {
+    final provider = Provider.of<FriendProvider>(context, listen: false);
+    _apiServices.get(context: context, endpoint: 'user/events-responded?type=yes&page=0&limit=50').then((value) {
+      provider.changeYesEvents(value['data']);
     });
   }
 

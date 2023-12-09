@@ -1,12 +1,16 @@
 import 'dart:math';
 
+import 'package:bar_monkey/api_services.dart';
 import 'package:bar_monkey/app_config/colors.dart';
 import 'package:bar_monkey/providers/friend_provider.dart';
 import 'package:bar_monkey/screens/tab_screens/discover_screens/yes_maybe_noTile.dart';
 import 'package:bar_monkey/widget/widgets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
+
+import '../../../widget/sahared_prefs.dart';
 
 class yesMaybeNoCreatorScreen extends StatefulWidget {
   @override
@@ -20,8 +24,8 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
   final dateController = TextEditingController();
   final timeController = TextEditingController();
   final descriptionController = TextEditingController();
-  var privacy = 0;
-  var themeColor = 0;
+  var privacy = "0";
+  var themeColor = "0";
 
   @override
   void initState() {
@@ -36,8 +40,11 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
         lastDate: DateTime(2101));
     if (picked != null) {
       setState(() {
-        dateController.text = picked.month.toString() + '-' + picked.day.toString()
-            + '-' +picked.year.toString();
+        dateController.text = picked.month.toString() +
+            '-' +
+            picked.day.toString() +
+            '-' +
+            picked.year.toString();
       });
     }
   }
@@ -47,11 +54,15 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
         context: context, initialTime: TimeOfDay.fromDateTime(DateTime.now()));
     if (picked != null) {
       setState(() {
-        timeController.text = picked.hour.toString() + ':' + picked.minute.toString()
-            + " " + picked.period.name.toString();
+        timeController.text = picked.hour.toString() +
+            ':' +
+            picked.minute.toString() +
+            " " +
+            picked.period.name.toString();
       });
     }
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -271,14 +282,14 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                                     decoration: BoxDecoration(
                                         color: Color(0xf232428),
                                         border: Border.all(
-                                            color: privacy == 0
+                                            color: privacy == "0"
                                                 ? primaryColor
                                                 : primaryTextColor),
                                         borderRadius: BorderRadius.circular(8)),
                                     child: InkWell(
                                         onTap: () {
                                           setState(() {
-                                            privacy = 0;
+                                            privacy = "0";
                                           });
                                         },
                                         child: Padding(
@@ -299,14 +310,14 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                                     decoration: BoxDecoration(
                                         color: Color(0xf232428),
                                         border: Border.all(
-                                            color: privacy == 1
+                                            color: privacy == "1"
                                                 ? primaryColor
                                                 : primaryTextColor),
                                         borderRadius: BorderRadius.circular(8)),
                                     child: InkWell(
                                         onTap: () {
                                           setState(() {
-                                            privacy = 1;
+                                            privacy = "1";
                                           });
                                         },
                                         child: Padding(
@@ -339,7 +350,7 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                               InkWell(
                                 onTap: () {
                                   setState(() {
-                                    themeColor = 0;
+                                    themeColor = "0";
                                   });
                                 },
                                 child: Container(
@@ -351,7 +362,7 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                                                 radix: 16) +
                                             0xFF000000),
                                         border: Border.all(
-                                            color: themeColor == 0
+                                            color: themeColor == "0"
                                                 ? primaryColor
                                                 : backgroundColor),
                                         borderRadius:
@@ -361,7 +372,7 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                               InkWell(
                                   onTap: () {
                                     setState(() {
-                                      themeColor = 1;
+                                      themeColor = "1";
                                     });
                                   },
                                   child: Container(
@@ -373,7 +384,7 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                                                   radix: 16) +
                                               0xFF000000),
                                           border: Border.all(
-                                              color: themeColor == 1
+                                              color: themeColor == "1"
                                                   ? primaryColor
                                                   : backgroundColor),
                                           borderRadius:
@@ -382,7 +393,7 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                               InkWell(
                                   onTap: () {
                                     setState(() {
-                                      themeColor = 2;
+                                      themeColor = "2";
                                     });
                                   },
                                   child: Container(
@@ -394,7 +405,7 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                                                   radix: 16) +
                                               0xFF000000),
                                           border: Border.all(
-                                              color: themeColor == 2
+                                              color: themeColor == "2"
                                                   ? primaryColor
                                                   : backgroundColor),
                                           borderRadius:
@@ -403,7 +414,7 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                               InkWell(
                                   onTap: () {
                                     setState(() {
-                                      themeColor = 3;
+                                      themeColor = "3";
                                     });
                                   },
                                   child: Container(
@@ -415,7 +426,7 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                                                   radix: 16) +
                                               0xFF000000),
                                           border: Border.all(
-                                              color: themeColor == 3
+                                              color: themeColor == "3"
                                                   ? primaryColor
                                                   : backgroundColor),
                                           borderRadius:
@@ -423,10 +434,38 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                             ])
                           ]),
                       gap(36),
-                      fullWidthButton(buttonName: "Create question",
-                          onTap: () {
+                      fullWidthButton(
+                          buttonName: "Create question",
+                          onTap: () async {
+                            if (titleController.text.isNotEmpty &&
+                                descriptionController.text.isNotEmpty &&
+                                locationController.text.isNotEmpty &&
+                                dateController.text.isNotEmpty &&
+                                timeController.text.isNotEmpty) {
 
-                      }),
+                                ApiServices().post(
+                                    context: context,
+                                    endpoint: 'user/event',
+                                    body: {
+                                      "title": titleController.text,
+                                      "location": locationController.text,
+                                      "description": descriptionController.text,
+                                      "date": dateController.text,
+                                      "time": timeController.text,
+                                      "privacy": privacy,
+                                      "theme": themeColor,
+                                    }).then((value) {
+                                      print(value);
+                                      if(value['flag'] == true) {
+                                        Fluttertoast.showToast(msg: "Yes maybe no created!");
+                                        Navigator.pop(context);
+                                      }
+                                      else {
+                                        Fluttertoast.showToast(msg: "Error creating yes maybe no!");
+                                      }
+                                });
+                            }
+                          }),
                       gap(12),
                     ],
                   )));

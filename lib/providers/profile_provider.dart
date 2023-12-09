@@ -5,7 +5,10 @@ class ProfileProvider with ChangeNotifier {
   dynamic get profile => _profile;
 
   chnageProfile(dynamic value) {
+    print('profileData');
+    print(value);
     _profile = value;
+    notifyListeners();
   }
 
   List<dynamic> _posts = [];

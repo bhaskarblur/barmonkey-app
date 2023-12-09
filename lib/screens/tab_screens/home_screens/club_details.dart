@@ -11,9 +11,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class ClubDetailsScreen extends StatefulWidget {
   final dynamic barDetails;
+
   const ClubDetailsScreen({super.key, this.barDetails});
 
   @override
@@ -305,18 +307,70 @@ class _ClubDetailsScreenState extends State<ClubDetailsScreen>
                                           InkWell(
                                             onTap: () async {
                                               // make an api call to add story
+
+                                              _apiServices.getLocation().then((value) {
+                                                var lat = value.latitude.toString();
+                                                var lon = value.longitude.toString();
+
+                                                _apiServices.post(
+                                                    context: context,
+                                                    endpoint:
+                                                    'user/verify-location',
+                                                    body: {
+                                                      "barId":
+                                                      widget.barDetails['_id'],
+                                                      "location": {
+                                                        "latitude":lat,
+                                                        "longitude":lon,
+                                                      }
+                                                    }).then((value) {
+                                                  print(value['data']);
+                                                  if (value['data']
+                                                  ["userInBar"] ==
+                                                      true) {
+                                                    _apiServices.post(
+                                                        context: context,
+                                                        endpoint: 'user/story',
+                                                        body: {
+                                                          "barId": widget
+                                                              .barDetails['_id']
+                                                        }).then((value) {
+                                                      if (value['flag'] ==
+                                                          true) {
+                                                        Fluttertoast.showToast(
+                                                            msg:
+                                                            "Story Uploaded!");
+                                                      } else if (value[
+                                                      'message'] !=
+                                                          null) {
+                                                        Fluttertoast.showToast(
+                                                            msg:
+                                                            value['message']);
+                                                      } else {
+                                                        Fluttertoast.showToast(
+                                                            msg:
+                                                            "There was an error in posting story");
+                                                      }
+                                                    });
+                                                  } else {
+                                                    Fluttertoast.showToast(
+                                                        msg:
+                                                        "You're not in this bar!");
+                                                  }
+                                                });
+                                              });
                                             },
                                             child: Container(
                                               decoration: BoxDecoration(
                                                   borderRadius:
-                                                  BorderRadius.circular(5),
+                                                      BorderRadius.circular(5),
                                                   color: Colors.black),
                                               child: Padding(
                                                 padding:
-                                                const EdgeInsets.all(5),
+                                                    const EdgeInsets.all(5),
                                                 child: Row(
                                                     mainAxisSize:
-                                                    MainAxisSize.min,
+                                                        MainAxisSize.min,
                                                     children: [
                                                       const Icon(
                                                           Icons
@@ -327,7 +381,7 @@ class _ClubDetailsScreenState extends State<ClubDetailsScreen>
                                                       Text('Post Bar',
                                                           style: TextStyle(
                                                               color:
-                                                              primaryTextColor))
+                                                                  primaryTextColor))
                                                     ]),
                                               ),
                                             ),

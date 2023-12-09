@@ -29,7 +29,7 @@ class yesMaybeNoScreen extends StatelessWidget {
         return Container(
     child: Padding(
       padding: EdgeInsets.all(16),
-            child: yesMaybeNoList(context, [{},{}], 1, null )
+            child: yesMaybeNoList(context, provider.yesNoEvents, 1, null )
     ));
       })
     );

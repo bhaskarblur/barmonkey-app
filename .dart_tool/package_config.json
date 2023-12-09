@@ -285,7 +285,7 @@
     },
     {
       "name": "fluttertoast",
-      "rootUri": "file:///Users/soundwave2847/.pub-cache/hosted/pub.dev/fluttertoast-8.2.2",
+      "rootUri": "file:///Users/soundwave2847/.pub-cache/hosted/pub.dev/fluttertoast-8.2.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -884,7 +884,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-12-03T09:49:20.236272Z",
+  "generated": "2023-12-09T08:54:37.254752Z",
   "generator": "pub",
   "generatorVersion": "3.1.0"
 }

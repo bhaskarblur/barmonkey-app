@@ -193,9 +193,9 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
                                     "favouriteDrink": _favDrink.text,
                                     "bio": _bio.text
                                   }).then((value) {
+                                print(value);
                                 if (value['flag'] == true) {
                                   print('messageSaved');
-                                  print(value);
                                   getData();
                                 } else {
                                   print("error");

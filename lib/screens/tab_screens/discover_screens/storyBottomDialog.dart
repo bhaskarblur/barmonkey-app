@@ -47,12 +47,12 @@ class storyBottomDialog extends StatelessWidget {
                           width: 42,
                           decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              image: data['user'] !=
+                              image: data['_id']['host'] !=
                                   null
                                   ? DecorationImage(
                                   image: NetworkImage(
                                       userImageUrl +
-                                          data['user']
+                                          data['_id']['host'][0]
                                           ['image']),
                                   fit: BoxFit.cover)
                                   : const DecorationImage(
@@ -65,15 +65,14 @@ class storyBottomDialog extends StatelessWidget {
                           children: [
                             Text(
                                 toBeginningOfSentenceCase(
-                                    data['user'] != null ? data['user']['firstName'] :  "First" +
-                                        " ${ data['user'] != null ? data['user']['lastName'] : "Last" } "
-                                )!,
+                                    data['_id']['host'][0] != null ? data['_id']['host'][0]['firstName'] +
+                                        " ${ data['_id']['host'][0] != null ? data['_id']['host'][0]['lastName'] : "Last"}": "")!,
                                 style: TextStyle(
                                     color: primaryTextColor,
                                     fontSize: 16)),
                           ])
                     ]),
-                Text(data['user'] != null ? data['user']['username'] : "username",
+                Text(data['_id']['host'][0] != null ? data['_id']['host'][0]['username'] : "username",
                     style:
                     TextStyle(color: primaryColor)),
               ],
@@ -135,12 +134,12 @@ class storyBottomDialog extends StatelessWidget {
                                   padding: const EdgeInsets.all(5),
                                   child: Row(
                                     children: [
-                                      Text('Your Friend Here at',
+                                      Text('Your Friend Here at ',
                                           style: TextStyle(
                                               color:
                                               primaryTextColor)),
                                       Text(
-                                          data['visitTime'] ??
+                                         DateFormat.Hm().format(DateTime.parse(data['stories'][data['stories'].length-1]['postedAt'])) ??
                                               '10:00 PM',
                                           style: TextStyle(
                                               color: primaryColor))
@@ -174,8 +173,8 @@ class storyBottomDialog extends StatelessWidget {
                                       CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          data['barDetails'] != null ?
-                                            data['barDetails']
+                                          data['stories'] != null ?
+                                          data['stories'][data['stories'].length-1]['bar'][0]
                                             ['name'] ??
                                                 'Shiner Park' : 'Shiner Park',
                                             style: TextStyle(
@@ -183,7 +182,7 @@ class storyBottomDialog extends StatelessWidget {
                                                 fontSize: 22)),
                                         Row(
                                           children: [
-                                            Text( data['barDetails'] != null ? data['barDetails']['type']?? 'type' : 'type',
+                                            Text( data['stories'] != null ? data['stories'][data['stories'].length-1]['bar'][0]['type'] ?? 'type' : 'Nightclub',
                                                 style: TextStyle(
                                                     color:
                                                     primaryTextColor)),
@@ -205,7 +204,7 @@ class storyBottomDialog extends StatelessWidget {
                                           ],
                                         ),
                                         gap(5),
-                                        Text(  data['barDetails'] != null ? data['barDetails']['location'] ?? 'location' : 'location',
+                                        Text(  data['stories'] != null ? data['stories'][data['stories'].length-1]['bar'][0]['type'] ?? 'location' : '217 University Drive',
                                             style: TextStyle(
                                                 fontWeight:
                                                 FontWeight.bold,
