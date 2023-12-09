@@ -457,11 +457,11 @@ class yesMaybeNoCreatorScreenState extends State<yesMaybeNoCreatorScreen> {
                                     }).then((value) {
                                       print(value);
                                       if(value['flag'] == true) {
-                                        Fluttertoast.showToast(msg: "Yes maybe no created!");
+                                        Fluttertoast.showToast(msg: "Question created!");
                                         Navigator.pop(context);
                                       }
                                       else {
-                                        Fluttertoast.showToast(msg: "Error creating yes maybe no!");
+                                        Fluttertoast.showToast(msg: "Error creating question!");
                                       }
                                 });
                             }
